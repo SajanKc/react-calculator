@@ -1,0 +1,42 @@
+.frame {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  margin: 5px 0;
+  color: black;
+  font-size: 20px;
+  text-shadow: 1px 1px 2px black, 0 0 25px greenyellow, 0 0 5px greenyellow;
+}
+.calculator {
+  padding: 5px;
+  width: 350px;
+  background-color: rgb(255, 248, 205);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.button {
+  width: 75px;
+  padding: 10px;
+  margin: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.button:hover {
+  cursor: pointer;
+  background-color: lightgrey !important;
+}
+.button.clear {
+  background-color: lightsalmon;
+}
+.button.operator {
+  background-color: lightseagreen;
+}
+.operator.equal {
+  width: 160px;
+}
